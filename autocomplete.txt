@@ -1,0 +1,16 @@
+AUTO COMPLETE FILES:
+1.CSS FILES.
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.common-material.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.material.min.css" />
+    <link rel="stylesheet" href="//kendo.cdn.telerik.com/2016.2.714/styles/kendo.default.mobile.min.css" />
+2.JS FILES.
+     <script src="//kendo.cdn.telerik.com/2016.2.714/js/angular.min.js"></script>
+    <script src="//kendo.cdn.telerik.com/2016.2.714/js/kendo.all.min.js"></script>
+3.HTML.
+    <div class="col-sm-3">
+			<input class="form-control" kendo-auto-complete
+				ng-model="selectedArtist.venuenames" k-data-source="venuenames"
+				style="width: 100%;" />
+			 <p class="demo-hint">Your selection: {{ country }}</p> 
+	</div>
+4.Reffered Link: http://demos.telerik.com/kendo-ui/autocomplete/angular
